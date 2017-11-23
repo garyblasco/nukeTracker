@@ -7,4 +7,4 @@ http.createServer(function (req, res) {
 	var txt = q.target + ' ' + q.date + ' ' + q.nukes; 
 	res.write('Added! <br> Name: ' + q.target +'<br> Nukes: ' + q.nukes + '<br> Date & Time: ' + q.date + '<br>');
 	res.end('<a href="http://test.com/?target=' + q.target + '&date=' + q.date + '&nukes=' + q.nukes + '">test url</a>');
-}).listen(9999);
+}).listen(8080);

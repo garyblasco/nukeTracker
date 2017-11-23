@@ -1,0 +1,16 @@
+{
+  "name": "nuketracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "addNukes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1”,
+    “start”: “addNukes.js”,
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/garyblasco/nukeTracker"
+  },
+  "author": "",
+  "license": "ISC"
+}
